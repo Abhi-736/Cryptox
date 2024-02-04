@@ -1,7 +1,8 @@
 import { Avatar, Box, Stack, Text, VStack } from "@chakra-ui/react";
+import abhi from '../assets/abhishek.png';
 import React from "react";
 
-const avatarSrc = "https://i.ibb.co/68M6Xnh/final.png"
+/* const avatarSrc = "https://i.ibb.co/68M6Xnh/final.png" */
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
         </VStack>
 
         <VStack><a href="https://abhi736.000webhostapp.com/#Home">
-          <Avatar boxSize={"28"} mt={["4", "0"]} src={avatarSrc} />
+          <Avatar boxSize={"28"} mt={["4", "0"]} src={abhi} />
           </a>
           <Text >Designed by</Text>
         
